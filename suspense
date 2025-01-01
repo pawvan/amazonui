@@ -1,0 +1,11 @@
+<Suspense>
+
+    <template #default>
+        <Mycomponent/>
+
+    </template>
+    <template #fallback>
+
+<LoadSpinner/>
+    </template>
+</suspense>

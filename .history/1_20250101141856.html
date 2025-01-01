@@ -1,0 +1,13 @@
+Vue.component('child-component',{
+    props:['message'],
+    template:'<p>{{message}}</p>'
+})
+Vue.component('child-component',{
+    template:'<button @click=""sendMessage>send message</button>'
+,
+methods:{
+    sendMessage:function(){
+        this.$emit('message-sent','hello from child')
+    }
+}
+})

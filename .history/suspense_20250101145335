@@ -1,0 +1,5 @@
+<Suspense>
+
+
+    <template #default></template>
+</suspense>

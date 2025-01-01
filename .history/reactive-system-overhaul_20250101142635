@@ -1,0 +1,5 @@
+Vue.set('app.items,1,'Nwitem)
+const routes  = [
+    {path:'/',component:Home},
+    
+]

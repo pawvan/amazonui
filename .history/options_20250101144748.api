@@ -1,0 +1,13 @@
+export default{
+    data:{
+        return {
+            count:0
+        }
+    }
+    method:{
+        increment()
+{
+    this.count++;
+}    }
+}
+import {ref} from 'vue

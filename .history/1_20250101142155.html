@@ -1,0 +1,27 @@
+Vue.component('child-component',{
+    props:['message'],
+    template:'<p>{{message}}</p>'
+})
+Vue.component('child-component',{
+    template:'<button @click=""sendMessage>send message</button>'
+    ,
+methods:{
+    sendMessage:function(){
+        this.$emit('message-sent','hello from child')
+    }
+}
+})
+//scoped styles 
+
+<style scoped>
+    p{
+        color:red
+    }
+</style>
+<component :is="currentComponent"></component>
+<div id="app">
+<ul>
+    <li></oi>
+</ul>
+
+</div>

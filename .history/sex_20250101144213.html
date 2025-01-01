@@ -1,0 +1,10 @@
+import Vue from Vue;
+import {Component} from 'vue-property-decorator'
+@Component
+export default class MyComponent extends Vue{
+    message:string ="lol"
+    created(){
+        consol.log(this.message)
+    }
+}
+const CartComponent  =()=>import('./components')

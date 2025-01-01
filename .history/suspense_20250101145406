@@ -1,0 +1,10 @@
+<Suspense>
+
+
+    <template #default>
+        <Mycomponent/>
+
+    </template>
+    <template>
+    </template>
+</suspense>

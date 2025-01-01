@@ -1,0 +1,6 @@
+<teleport to=body>
+
+    <div class="modal">
+    
+    modal</div>
+</teleport>
